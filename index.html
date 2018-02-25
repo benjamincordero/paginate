@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Paginador</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="site.min.css">
+	<style>
+		th, td{
+			text-align: center;
+		} 
+
+		.form-control{
+			border-radius: 0px;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="row">
+		<div class="container">
+			
+			<div class="jumbotrom">
+				<h3>Paginador facíl de implementar.</h3>
+				<h4>Solo Javascript.</h4>
+
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+									
+					<h4>Example table</h4>
+				
+				</div>
+				<table class="table table-striped">
+					<thead>
+						<th>#</th>
+						<th>Full Name</th>
+						<th>Email</th>
+						<th>Gender</th>
+					</thead>
+					<tbody>
+						
+					</tbody>
+				</table>
+				<div class="panel-footer">
+					<div class="text-center">
+						<ul class="pagination">
+		              	<input type="hidden" id="current_pag" value="1">
+		                </ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+
+	<script src="jquery-3.1.0.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
